@@ -9,9 +9,9 @@ export default {
       colors: {
         'Azul-oscuro': '#0081A7',
         'Azul-claro': '#00AFB9',
-        'Beige': '#FDFCDC',
-        'Salmon': '#FED9B7',
-        'Rojo': '#F07167',
+        'Beige': '#EEF4ED',
+        'Salmon': '#00AFB9',
+        'Rojo': '#0081A7',
       }
 
     },
