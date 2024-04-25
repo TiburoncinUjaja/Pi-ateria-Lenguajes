@@ -5,12 +5,10 @@ import CarouselImg1 from '../img/CarouselImg1.jpg'
 import CarouselImg2 from '../img/CarouselImg2.jpg'
 import CarouselImg3 from '../img/CarouselImg3.jpg'
 
-
-
 const Carousel1 = () => {
     const imgStyle = {
-        height: '500px', // Ajusta esta altura según tus necesidades
-        objectFit: 'cover' // Para asegurar que las imágenes mantengan su relación de aspecto
+        height: '500px',
+        objectFit: 'cover' 
       };
   return (
     <>
