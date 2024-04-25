@@ -2,6 +2,8 @@ import { useState } from 'react'
 import Header from './components/Header'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import Inicio from './pages/Inicio'
+import Flashcard from './components/Flashcard'
+
 
 function App() {
   const [count, setCount] = useState(0)
