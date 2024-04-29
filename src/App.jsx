@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-Beige min-h-screen">
+      <div className="bg-gradient-to-b from-gray-50 to-gray-200 min-h-screen">
         <Header></Header>
         <section className='w-5/6 mx-auto px-8 pt-10'>
           <Routes>
