@@ -8,7 +8,7 @@ const Flashcard = () => {
         {/* Titulo */}
         <div className="mb-10 max-w-56">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-Azul-oscuro">Productos</h1>
-          <div className="h-1 w-20 bg-Rojo rounded"></div>
+          <div className="h-1 w-20 bg-Azul-oscuro rounded"></div>
         </div>
 
         {/* Productos */}
@@ -20,7 +20,7 @@ const Flashcard = () => {
             <div className="mt-4">
               <h2 className="text-gray-900 title-font text-lg font-medium">Globos</h2>
               <p className="mt-1">$16.00</p>
-              <button className="absolute 2xl bg-Rojo p-2 px-4 text-white rounded-full right-3 bottom-3 hover:bg-Azul-claro hover:scale-105 duration-100 font-bold">+</button>
+              <button className="absolute 2xl bg-Azul-oscuro p-2 px-4 text-white rounded-full right-3 bottom-3 hover:bg-Azul-claro hover:scale-105 duration-100 font-bold">+</button>
             </div>
           </div>
           <div className="lg:w-auto md:w-1/2 p-2 bg-slate-200 relative rounded-lg">
@@ -30,7 +30,7 @@ const Flashcard = () => {
             <div className="mt-4">
               <h2 className="text-gray-900 title-font text-lg font-medium">Globos</h2>
               <p className="mt-1">$16.00</p>
-              <button className="absolute 2xl bg-Rojo p-2 px-4 text-white rounded-full right-3 bottom-3 hover:bg-Azul-claro hover:scale-105 duration-100 font-bold">+</button>
+              <button className="absolute 2xl bg-Azul-oscuro p-2 px-4 text-white rounded-full right-3 bottom-3 hover:bg-Azul-claro hover:scale-105 duration-100 font-bold">+</button>
             </div>
           </div>
           <div className="lg:w-auto md:w-1/2 p-2 bg-slate-200 relative rounded-lg">
@@ -40,7 +40,7 @@ const Flashcard = () => {
             <div className="mt-4">
               <h2 className="text-gray-900 title-font text-lg font-medium">Globos</h2>
               <p className="mt-1">$16.00</p>
-              <button className="absolute 2xl bg-Rojo p-2 px-4 text-white rounded-full right-3 bottom-3 hover:bg-Azul-claro hover:scale-105 duration-100 font-bold">+</button>
+              <button className="absolute 2xl bg-Azul-oscuro p-2 px-4 text-white rounded-full right-3 bottom-3 hover:bg-Azul-claro hover:scale-105 duration-100 font-bold">+</button>
             </div>
           </div>
           <div className="lg:w-auto md:w-1/2 p-2 bg-slate-200 relative rounded-lg">
@@ -50,7 +50,7 @@ const Flashcard = () => {
             <div className="mt-4">
               <h2 className="text-gray-900 title-font text-lg font-medium">Globos</h2>
               <p className="mt-1">$16.00</p>
-              <button className="absolute 2xl bg-Rojo p-2 px-4 text-white rounded-full right-3 bottom-3 hover:bg-Azul-claro hover:scale-105 duration-100 font-bold">+</button>
+              <button className="absolute 2xl bg-Azul-oscuro p-2 px-4 text-white rounded-full right-3 bottom-3 hover:bg-Azul-claro hover:scale-105 duration-100 font-bold">+</button>
             </div>
           </div>
        
