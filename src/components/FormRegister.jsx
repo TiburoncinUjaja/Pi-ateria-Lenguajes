@@ -33,11 +33,11 @@ const FormRegister = () => {
         });
     };
     return (
-        <section className="w-1/2">
-          <div className="flex flex-col items-center justify-center py-8 mx-auto lg:py-0">
-            <div className="w-full shadow-lg rounded-2xl p-6 inline-block bg-gray-100">
+        
+          <div className="flex flex-col items-center justify-center py-8 px-6 mx-auto lg:py-0 w-1/2">
+            <div className="w-full shadow-lg rounded-2xl p-6 inline-block bg-gray-100 h-full">
               <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
-                <h1 className="text-3xl font-bold leading-tight tracking-tight text-Azul-oscuro text-center">
+                <h1 className="text-3xl font-bold leading-tight tracking-tight text-Azul-oscuro text-center h-7">
                   ¡Regístrate aquí!
                 </h1>
                 <form className="space-y-4 md:space-y-6" onSubmit={handleSubmit}>
@@ -82,7 +82,7 @@ const FormRegister = () => {
                   </div>
                   <button
                     type="submit"
-                    className="w-full text-white bg-Azul-oscuro hover:bg-Azul-oscuro font-semibold rounded-lg text-sm px-5 py-2.5 text-cente"
+                    className="w-full text-white bg-Azul-oscuro font-semibold rounded-lg text-sm px-5 py-2.5 hover:text-Azul-oscuro hover:bg-Beige hover:border-Azul-oscuro border-2 text-center"
                   >
                     Registrarse
                   </button>
@@ -90,7 +90,7 @@ const FormRegister = () => {
               </div>
             </div>
           </div>
-        </section>
+
       );
     };
     
