@@ -10,8 +10,8 @@ export default {
         'Azul-oscuro': '#0081A7',
         'Azul-claro': '#00AFB9',
         'Beige': '#EEF4ED',
-        'Salmon': '#00AFB9',
-        'Rojo': '#0081A7',
+        'Salmon': '#EDDEA4',
+        'Rojo': '#F7A072',
       }
 
     },
