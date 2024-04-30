@@ -32,10 +32,11 @@ const Header = () => {
                 <div className='divide-x align-middle	'>
 
                     <Link to="/carrito" className='align-middle'>
-                        <FontAwesomeIcon className='px-5 py-3 ' icon={faCartShopping} style={{ color: "#0081A7", }} />
+
+                        <FontAwesomeIcon className='px-5 py-3 w-6 h-6' icon={faCartShopping} style={{ color: "#0081A7", }} />
                     </Link>
-                    <Link to="/login" className='px-5'>
-                        <button type="button" className="text-white bg-Azul-oscuro hover:border-Azul-oscuro hover:border-2  hover:text-Azul-oscuro hover:bg-Beige font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2">Login</button>
+                    <Link to="/login" className='px-5 '>
+                        <button type="button" className="text-white bg-Azul-oscuro border-2 border-Azul-oscuro   hover:text-Azul-oscuro hover:bg-Beige hover:w-30 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2">Login</button>
                     </Link>
                 </div>
 
