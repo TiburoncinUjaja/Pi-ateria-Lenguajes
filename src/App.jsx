@@ -8,7 +8,6 @@ import Users from './components/Users'
 
 function App() {
   const [count, setCount] = useState(0)
-
   return (
     <>
       <div className="bg-gradient-to-b from-gray-50 to-gray-200 min-h-screen">
