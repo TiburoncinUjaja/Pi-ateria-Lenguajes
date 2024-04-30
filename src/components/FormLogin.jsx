@@ -40,6 +40,7 @@ const FormLogin = () => {
         const datos = [registros[i].nombre, registros[i].email]
         localStorage.setItem('sesion', JSON.stringify(datos));
         navigate('/');
+        window.location.reload();
     }
 
     function validar(email) {
@@ -51,7 +52,6 @@ const FormLogin = () => {
         }
         return
     };
-
 
     return (
         <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto lg:py-0 w-1/2">
@@ -86,7 +86,6 @@ const FormLogin = () => {
                         {error && <p className="text-Rojo text-center">Datos incorrectos!!!</p>}
                         <button type="submit" className="w-full text-white bg-Azul-oscuro font-semibold rounded-lg text-sm px-5 py-2.5 hover:text-Azul-oscuro hover:bg-Beige hover:border-Azul-oscuro border-2 text-center">Iniciar Sesión</button>
                     </form>
-
                 </div>
             </div>
         </div>
