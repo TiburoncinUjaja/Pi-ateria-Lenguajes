@@ -1,9 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { Link } from 'react-router-dom'
 import logo from '../img/Logo.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import Users from './Users'
 
 const Header = () => {
@@ -36,7 +33,6 @@ const Header = () => {
                     {/*<Link to="/login" className='px-5'>
                         <button type="button" className="text-white bg-Azul-oscuro hover:border-Azul-oscuro hover:border-2  hover:text-Azul-oscuro hover:bg-Beige font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2">Login</button>
                     </Link>*/}
-
                 </div>
 
             </div>

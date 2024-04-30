@@ -11,6 +11,7 @@ const Login = () => {
         <FormRegister />
         <FormLogin />
       </div>
+      <RegistroList/> 
 
     </div>
   )
