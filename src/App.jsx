@@ -4,7 +4,7 @@ import Header from './components/Header'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import Inicio from './pages/Inicio'
 import Login from './pages/Login'
-
+import Users from './components/Users'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +13,7 @@ function App() {
     <>
       <div className="bg-gradient-to-b from-gray-50 to-gray-200 min-h-screen">
         <Header></Header>
+        
         <section className='w-5/6 mx-auto px-8 pt-10'>
           <Routes>
             <Route path="/" element={<Inicio></Inicio>}></Route>

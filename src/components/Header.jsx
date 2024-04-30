@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import logo from '../img/Logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import Users from './Users'
 
 const Header = () => {
     const btnLink = 'mr-5 px-5 py-5 hover:text-Azul-oscuro hover:border-b-2 border-Azul-oscuro cursor-pointer'
@@ -29,17 +30,14 @@ const Header = () => {
                         <button type="submit" className="text-white absolute end-2.5 bottom-2.5 bg-Azul-oscuro hover:bg-Azul-claro hover:border-Azul-oscuro hover:border-2 hover:text-Azul-oscuro focus:ring-4 focus:outline-none focus:ring-Azul-oscuro font-medium rounded-lg text-sm px-4 py-2">Search</button>
                     </div>
                 </form>
-                <div className='divide-x align-middle	'>
 
-                    <Link to="/carrito" className='align-middle'>
-                        <FontAwesomeIcon className='px-5 py-3 ' icon={faCartShopping} style={{ color: "#0081A7", }} />
-                    </Link>
-                    <Link to="/login" className='px-5'>
+                <div className='divide-x align-middle'>    
+                    <Users/>
+                    {/*<Link to="/login" className='px-5'>
                         <button type="button" className="text-white bg-Azul-oscuro hover:border-Azul-oscuro hover:border-2  hover:text-Azul-oscuro hover:bg-Beige font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2">Login</button>
-                    </Link>
+                    </Link>*/}
+
                 </div>
-
-
 
             </div>
             <nav className="w-full md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center ">
@@ -49,7 +47,6 @@ const Header = () => {
                 <NavLink to="/contactenos" className={({ isActive }) => isActive ? btnActive : btnLink}>Contactanos</NavLink>
 
             </nav>
-
 
         </header>
     )
