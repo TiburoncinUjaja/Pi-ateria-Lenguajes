@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
-import logo from '../img/Logo.png';
+import logo from '../img/logo.png';
 import Users from './Users'
 import { useState, useEffect  } from 'react';
 

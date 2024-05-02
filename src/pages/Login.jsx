@@ -7,7 +7,7 @@ import FormLogin from '../components/FormLogin'
 const Login = () => {
   return (
     <div>
-      <div className="g-6 flex h-full flex-wrap items-center justify-center flex h-50 divide-x divide-Azul-oscuro">
+      <div className="g-6 h-full flex-wrap items-center justify-center flex h-50 divide-x divide-Azul-oscuro">
         <FormRegister />
         <FormLogin />
       </div>

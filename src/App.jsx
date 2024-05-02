@@ -5,6 +5,7 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import Inicio from './pages/Inicio'
 import Login from './pages/Login'
 import Users from './components/Users'
+import Contact from './pages/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Inicio></Inicio>}></Route>
             <Route path="/quienessomos" element={<Inicio></Inicio>}></Route>
-            <Route path="/contactenos" element={<Inicio></Inicio>}></Route>
+            <Route path="/contactenos" element={<Contact></Contact>}></Route>
             <Route path="/login" element={<Login></Login>}></Route>
             <Route path="/carrito" element={<Inicio></Inicio>}></Route>
             <Route path="*" element={<Navigate to="/" />}></Route>
