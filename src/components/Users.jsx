@@ -22,6 +22,7 @@ const Users = () => {
     // Aquí añadir la lógica para cerrar la sesión
     localStorage.setItem('sesion', JSON.stringify(null));
     window.location.href = '/';
+    window.location.reload();
     alert('¡Sesión cerrada!');
   };
   return (
