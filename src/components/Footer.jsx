@@ -1,4 +1,4 @@
-import logo from '../img/Logo.png'
+import logo from '../img/logo.png'
 const Footer = () => {
   return (
     <div>
@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-              <img src={logo} alt="Logo de la Aplicación" style={{ width: '90px', height: 'auto' }} />
+              <img src={logo} alt="logo de la Aplicación" style={{ width: '90px', height: 'auto' }} />
               <span className="ml-3 text-xl">PIÑATA PARTY OFICIAL</span>
             </a>
             <p className="mt-2 text-sm text-gray-500">Hacemos realidad tus sueños!</p>
