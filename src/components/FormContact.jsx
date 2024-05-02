@@ -80,7 +80,7 @@ const FormContact = () => {
           </p>
           <div>
             <button
-              type="submit"
+              type="button"
               className="my-5 w-full flex justify-center bg-Azul-oscuro text-gray-100 p-4 rounded-full tracking-wide font-semibold focus:outline-none focus:shadow-outline hover:bg-Azul-claro shadow-lg cursor-pointer transition ease-in duration-300"
             >
               Enviar
