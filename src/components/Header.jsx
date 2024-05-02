@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
-import logo from '../img/Logo.png';
+import logo from '../img/logo.png';
 import Users from './Users'
 import { useState, useEffect  } from 'react';
 
@@ -59,7 +57,7 @@ const Header = () => {
       <nav className="w-full md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center ">
 
           <NavLink to="/" className={({ isActive }) => isActive ? btnActive : btnLink}>Inicio</NavLink>
-          <NavLink to="/quienessomos" className={({ isActive }) => isActive ? btnActive : btnLink}>Sobre Nosotros</NavLink>
+          <NavLink to="/SobreNosotros" className={({ isActive }) => isActive ? btnActive : btnLink}>Sobre Nosotros</NavLink>
           <NavLink to="/contactenos" className={({ isActive }) => isActive ? btnActive : btnLink}>Contactanos</NavLink>
 
       </nav>
