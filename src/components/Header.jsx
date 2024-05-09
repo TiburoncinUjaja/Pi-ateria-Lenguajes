@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import logo from '../img/logo.png';
+import logo from '../img/Logo.png';
 import Users from './Users'
 import { useState, useEffect  } from 'react';
 

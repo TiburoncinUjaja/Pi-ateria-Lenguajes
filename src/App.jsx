@@ -4,6 +4,7 @@ import Header from './components/Header'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import Inicio from './pages/Inicio'
 import Login from './pages/Login'
+import Cart from './pages/Cart'
 import { AboutUs } from './pages/AboutUs'
 import Contact from './pages/Contact'
 
@@ -20,7 +21,7 @@ function App() {
             <Route path="/SobreNosotros" element={<AboutUs></AboutUs>}></Route>
             <Route path="/contactenos" element={<Contact></Contact>}></Route>
             <Route path="/login" element={<Login></Login>}></Route>
-            <Route path="/carrito" element={<Inicio></Inicio>}></Route>
+            <Route path="/carrito" element={<Cart></Cart>}></Route>
             <Route path="*" element={<Navigate to="/" />}></Route>
           </Routes>
         </section>
