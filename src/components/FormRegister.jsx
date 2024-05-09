@@ -33,7 +33,6 @@ const FormRegister = () => {
         });
     };
     return (
-        
           <div className="flex flex-col items-center justify-center py-8 px-6 mx-auto lg:py-0 w-1/2">
             <div className="w-full shadow-lg rounded-2xl p-6 inline-block bg-gray-100 h-full">
               <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
