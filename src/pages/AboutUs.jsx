@@ -71,9 +71,9 @@ export const AboutUs = () => {
 
                 </div>
                 <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                    <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Sobre nosotros
-                    </h1>
-                    <p className="mb-8 leading-relaxed">En nuestra piñatería en Neiva, Huila, nos enorgullece ofrecer una amplia variedad de productos coloridos y divertidos que hacen que cada celebración sea aún más especial. Con años de experiencia en el arte de la piñatería, nos dedicamos a proporcionar a nuestros clientes la más alta calidad en cada detalle, desde piñatas tradicionales hasta creaciones personalizadas que reflejan la imaginación y el espíritu festivo de nuestra comunidad. ¡Estamos aquí para convertir tus eventos en momentos inolvidables de alegría y diversión!</p>
+                    <h2 className="mt-5 text-3xl font-bold text-Azul-oscuro">Sobre nosotros
+                    </h2>
+                    <p className="mb-8 leading-relaxed ">En nuestra piñatería en Neiva, Huila, nos enorgullece ofrecer una amplia variedad de productos coloridos y divertidos que hacen que cada celebración sea aún más especial. Con años de experiencia en el arte de la piñatería, nos dedicamos a proporcionar a nuestros clientes la más alta calidad en cada detalle, desde piñatas tradicionales hasta creaciones personalizadas que reflejan la imaginación y el espíritu festivo de nuestra comunidad. ¡Estamos aquí para convertir tus eventos en momentos inolvidables de alegría y diversión!</p>
                 </div>
             </div>
         </section>
